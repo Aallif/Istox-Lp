@@ -18,23 +18,37 @@ p{
 
 
 .logo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
 
-    padding-top: 25px;
-    padding-left: 25px;
+ 
 
 }
 
 .bansec{
     /* display: flex; */
-    background-image: url();
+    /* background-image: url("../images/banner-image.jpg");
+    background-repeat: no-repeat;
     width: 100%;
-    background-color: #081c53;
+    height: 100%;
+    background-size: cover; */
 
 }
+.banner{
+    position: relative;
+    background-image: url("../images/banner-image.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
 
+    
+}
 
 .container{
     width: 1110px;
+    text-align: justify;
 }
 
 .bancont h1{
@@ -42,6 +56,7 @@ p{
     font-size: 51px;
     font-weight: 800;
     padding-top: 150px;
+    text-transform: capitalize;
 }
 
 .banpara{
@@ -107,25 +122,51 @@ p{
 /* sec section */
 
 .brands{
+    margin-top: -10 !important;
     display: flex;
-    background-color: #e20808;
-    margin-top: -10;
+    background-color: #ffffff;
     justify-content: space-around;
-
+   /*  box-shadow: outset; */
+   /* box-shadow: 0px,2px,4px,1px; */
 }
 
-.txtimg{
-    padding-top: 89px;
+.brands img{
+    padding-top: 70px;
+    padding-bottom: 68px;
 }
+
+.t-section{
+    position: relative;
+    padding-bottom: 135px;
+}
+
+.txtimgfst {
+    margin-top: 91px;
+}
+
 
 .txtimg h1{
     padding-bottom: 30px;
 }
 
 .sec-sectimg{
-    padding-top: 89px;
+    width: 541px;
+    border: 1px solid;
+    border: hidden;
+    background-color: #ffffff;
 }
 
+.sec-sectimg img {
+    padding: 18px;
+    border: 1px;
+}
+
+.outline img{
+    padding-left: 52px;
+    position: absolute;
+    top: 136px;
+    z-index: -1;
+}
 
 /* third section */
 
@@ -153,6 +194,10 @@ p{
     font-weight: 400;
 }
 
+ .brand .col-md-3{
+    padding: 15px;
+}
+
 
 .s3-btn{
     position: relative;
@@ -175,7 +220,7 @@ p{
     position: absolute;
     background-color: #ced2dd;
     width: 87px;
-    height: 94px;
+    height: 95px;
     top: 69px;
     
 }
@@ -215,6 +260,98 @@ p{
 .fivecont p{
     text-align: center;
     padding-top: 45px;
+    margin-bottom: 0px;
 
 }
 
+.s3-img{
+    justify-content: space-around;
+    background-color: #ffffff;
+    width: 247px;
+    height: 140px;
+}
+
+.s3-img .sgx {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.s3-img .toyko, .phatra, .hanwha, .ich,.ternary, .rh{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.s3-img .heliconia{
+    padding-left: 30px;
+    padding-top: 55px;
+}
+
+.fiveimgs .col-md-2{
+    padding: 0px;
+    width: 222px;
+}
+
+.fiveimgs{
+    margin-top: 80px;
+    /* margin-left: 130px; */
+    margin-bottom: 110px;
+    padding: 0px,20px;
+}
+
+.fiveimgs h6{
+    padding-top: 25px;
+    color: #091c52;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.green{
+    background-color: #3ce4c2;
+
+}
+
+.green-title h1{
+    padding-top: 100px;
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+.green .direct{
+    margin: 30px;
+}
+
+
+.direct{
+    background-color: #ffffff;
+    box-shadow: 0px,0px,10px,10px;
+}
+
+.directicon{
+    display: inline-block;
+    padding-top: 10px;  
+    padding-left: 10px;
+
+}
+
+.direct{
+    padding-left: 40px;
+    padding-bottom: 15px;
+}
+.direct img{
+    padding-left: 38px;
+}
+
+.directicon h5 {
+    font-size: 26px;
+    font-weight: 400px;
+}
+
+.hr{
+    width: 30px;
+    border: 2px solid #3ce4c2;
+}
+
+.direct p{
+    text-align: start;
+
+}
