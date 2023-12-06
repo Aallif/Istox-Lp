@@ -1,14 +1,18 @@
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
-h1{
+h1 {
     font-size: 30px;
     font-weight: 700;
     color: #081c53;
 }
 
-p{
+img {
+    max-width: 100%;
+}
+
+p {
     font-size: 18px;
     font-weight: 400;
 
@@ -17,13 +21,13 @@ p{
 /* banner section  */
 
 
-.logo{
+.logo {
     position: absolute;
     top: 10px;
     left: 10px;
 }
 
-.banner{
+.banner {
     position: relative;
     background-image: url("../images/banner-image.jpg");
     background-repeat: no-repeat;
@@ -33,99 +37,110 @@ p{
     background-size: cover;
 }
 
-.container{
+.container {
     width: 1110px;
 }
-.container-b{
+
+.container-b {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     height: 100vh;
 }
 
-.bancont h1{
+.bancont h1 {
     color: #ffffff;
     font-size: 51px;
     font-weight: 800;
-    padding-top: 150px;
+    padding-top: 230px;
     text-transform: capitalize;
 }
 
-.banpara{
-    display: inline-block;
+.banpara {
+    /* display: inline-block; */
     margin-top: 5px;
     color: #ffffff;
-    border-left:solid 2px #3ce4c2;
+    border-left: solid 2px #3ce4c2;
     margin-bottom: 25px;
     padding-top: 25px;
 
 }
 
-.banpara p{
+.banpara p {
     font-size: 30px;
     font-weight: 400;
     padding-left: 54px;
 }
 
 
-.banbtn{
+.banbtn {
     position: relative;
 
 }
 
 
-.banbtn button{
-    display: inline-block;
-    width: 418px;
+.banbtn button {
+    /* display: inline-block; */
+    width: 507px;
+    height: 80px;
     background-color: #3ce4c2;
-    padding: 31px;
+    /* padding: 31px; */
     padding-left: 41px;
-    margin-bottom: 150px;
+    margin-bottom: 200px;
     border: hidden;
 }
 
-.btntxt{
+.btntxt {
     color: #081c53;
     font-size: 22px;
     text-align: left;
     font-weight: 700;
 }
 
-.arow{
-    display: inline;
+.arow {
+    /* display: inline; */
     position: absolute;
     background-color: #ced2dd;
     width: 87px;
-    height: 95px;
-    
+    height: 80px;
+    top: 0;
+    right: 0;
+
 }
 
-.arow img{
+.btntxt img {
+    width: 32px;
+}
+
+.arow img {
     position: absolute;
-    top: 18px;
-    width: 60px;
-    right: 15px;
+    top: 27px;
+    width: 32px;
+    height: 28px;
+    right: 27px;
 
 }
 
 /* sec section */
 
-.brands{
-    margin-top: -10 !important;
+.brands {
+    position: relative;
+    z-index: 1;
+    margin-top: -32px;
     display: flex;
     background-color: #ffffff;
     justify-content: space-around;
-   /*  box-shadow: outset; */
-   /* box-shadow: 0px,2px,4px,1px; */
+    /*  box-shadow: outset; */
+    /* box-shadow: 0px,2px,4px,1px; */
 }
 
-.brands img{
+.brands img {
     padding-top: 70px;
     padding-bottom: 68px;
 }
 
-.t-section{
+.t-section {
     position: relative;
     padding-bottom: 135px;
 }
@@ -135,12 +150,12 @@ p{
 }
 
 
-.txtimg h1{
+.txtimg h1 {
     padding-bottom: 30px;
 }
 
-.sec-sectimg{
-    width: 541px;
+.sec-sectimg {
+    /* width: 541px; */
     border: 1px solid;
     border: hidden;
     background-color: #ffffff;
@@ -151,8 +166,8 @@ p{
     border: 1px;
 }
 
-.outline img{
-    padding-left: 52px;
+.outline img {
+    padding-left: 50px;
     position: absolute;
     top: 136px;
     z-index: -1;
@@ -160,23 +175,23 @@ p{
 
 /* third section */
 
-.third-sec{
+.third-sec {
     background-color: #081d54;
 
 
 }
 
-.the-title h1{
+.the-title h1 {
     padding-top: 127px;
     padding-bottom: 45px;
     text-align: center;
-    font-size: 30px; 
+    font-size: 30px;
     font-weight: 700;
     color: #3ce4c2;
 
 }
 
-.the-title p{
+.the-title p {
     text-align: center;
     color: #ffffff;
     padding-bottom: 60px;
@@ -184,34 +199,37 @@ p{
     font-weight: 400;
 }
 
- .brand .col-md-3{
+.brand .col-md-3 {
     padding: 15px;
 }
 
 
-.s3-btn{
-    position: relative;
+.s3-btn {
     text-align: center;
 
 }
-.s3-btn button{
-    display: inline-block;
-    width: 418px;
+
+.s3-btn button {
+    position: relative;
+    /* display: inline-block; */
+    width: 507px;
     background-color: #3ce4c2;
-    padding: 31px;
+    /* padding: 31px; */
+    height: 80px;
     padding-left: 41px;
     margin-bottom: 150px;
     margin-top: 69px;
     border: hidden;
 }
 
-.arow2{
-    display: inline;
-    position: absolute;
+/* .arow2{
+    /* display: inline; */
+/* position: absolute;
     background-color: #ced2dd;
     width: 87px;
     height: 95px;
-    top: 69px;
+    top: 0px;
+    right: 0px;
     
 }
 
@@ -219,18 +237,18 @@ p{
     position: absolute;
     top: 18px;
     width: 60px;
-    right: 15px;
+    right: 15px; */
 
-}
+/* } */
 
 
 /* four section */
 
-.four-sec{
+.four-sec {
     background-color: #f5f6f8;
 }
 
-.four-sec h1{
+.four-sec h1 {
     padding-top: 96px;
     padding-bottom: 53px;
     font-size: 30px;
@@ -238,26 +256,26 @@ p{
     text-align: center;
 }
 
-.frimgsec{
+.frimgsec {
     padding-bottom: 100px;
 }
 
-.fivecont h1{
+.fivecont h1 {
     padding-top: 98px;
     text-align: center;
 }
 
-.fivecont p{
+.fivecont p {
     text-align: center;
     padding-top: 45px;
     margin-bottom: 0px;
 
 }
 
-.s3-img{
+.s3-img {
     justify-content: space-around;
     background-color: #ffffff;
-    width: 247px;
+    /* width: 247px; */
     height: 140px;
 }
 
@@ -266,85 +284,95 @@ p{
     padding-left: 50px;
 }
 
-.s3-img .toyko, .phatra, .hanwha, .ich,.ternary, .rh{
+.s3-img .toyko,
+.phatra,
+.hanwha,
+.ich,
+.ternary,
+.rh {
     padding-top: 30px;
     padding-left: 30px;
 }
 
-.s3-img .heliconia{
+.s3-img .heliconia {
     padding-left: 30px;
     padding-top: 55px;
 }
 
-.fiveimgs .col-md-2{
+.fiveimgs .col-md-2 {
     text-align: center;
     padding: 0px;
     width: 220px;
 }
 
-.fiveimgs{
+.fiveimgs {
     margin-top: 80px;
     margin-bottom: 110px;
-    padding: 0px,20px;
+    padding: 0px, 20px;
 }
 
-.fiveimgs h6{
+.fiveimgs h6 {
     padding-top: 25px;
     color: #091c52;
     font-size: 22px;
     font-weight: 700;
 }
 
-.green{
+.green {
     background-color: #3ce4c2;
     padding-bottom: 120px;
 
 }
 
-.green .col-md-6{
+.green .col-md-6 {
     padding: 0px;
 }
 
-.green-title h1{
+.green-title h1 {
     padding-top: 100px;
     padding-bottom: 45px;
     text-align: center;
 }
 
-.green .direct,.direct4{
+.green .direct,
+.direct4 {
+    height: 260px;
     margin: 15px;
-    padding-left: 19px;
-    box-shadow: 0px,0px,10px 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: 0px, 0px, 10px 0px;
+    overflow: auto;
 }
 
 
-.direct,.direct4{
+.direct,
+.direct4 {
     background-color: #ffffff;
-    box-shadow: 0px,0px,10px,10px;
+    box-shadow: 0px, 0px, 10px, 10px;
 }
 
-.directicon{
+.directicon {
     display: inline-block;
-    padding-top: 10px;  
+    padding-top: 10px;
     padding-left: 10px;
 
 }
 
-.direct{
+.direct {
     padding-top: 36px;
     padding-bottom: 36px;
 }
 
-.direct4{
+.direct4 {
     padding-top: 36px;
     padding-bottom: 74px;
 }
 
-.direct img{
+.direct img {
     padding-bottom: 40px;
 }
 
-.direct4 img{
+.direct4 img {
     padding-bottom: 40px;
 }
 
@@ -355,22 +383,22 @@ p{
     font-weight: 700px;
 }
 
-.hr{
+.hr {
     width: 30px;
     border: 2px solid #3ce4c2;
 }
 
-.directicon hr{
-    width:30px;
+.directicon hr {
+    width: 30px;
     border: 2px solid #3ce4c2;
 }
 
-.direct p{
+.direct p {
     text-align: start;
     margin-bottom: 0px;
 }
 
-.slider-tit{
+.slider-tit {
     font-size: 30px;
     font-weight: 700;
     color: #081d55;
@@ -379,62 +407,62 @@ p{
 }
 
 
-.slider-dev-img{
+.slider-dev-img {
     padding-left: 123px;
     padding-top: 35px;
     padding-bottom: 35px;
     padding-right: 35px;
 }
 
-.slider .row{
+.slider .row {
     margin-top: 43px;
     margin-bottom: 123px;
 }
 
-.slider-dev p{
+.slider-dev p {
     padding-top: 18px;
 
 }
 
-.slider h2{
+.slider h2 {
     padding-top: 50px;
     font-size: 24px;
     font-weight: 700;
 }
 
-.slider p{
+.slider p {
     font-size: 18px;
     font-weight: 300;
 }
 
-.slider hr{
+.slider hr {
     margin: 0px;
     width: 40px;
     border: solid 1px #0c0c0c;
     opacity: 1;
 }
 
-.slider{
+.slider {
     position: relative;
 }
 
-.sliderhr hr{
+.sliderhr hr {
     width: 100%;
     border: 2px solid #091c52;
 
 }
 
 
-.t-section2{
+.t-section2 {
     padding-bottom: 125px;
 }
 
-.t-section2 .row{
+.t-section2 .row {
     position: relative;
 
 }
 
-.t-section2 .txt{
+.t-section2 .txt {
     padding-left: 70px;
 }
 
@@ -442,17 +470,17 @@ p{
     margin-top: 91px;
 }
 
-.txtimg2 p{
+.txtimg2 p {
     margin-bottom: 15px;
 }
 
-.txtimg2 h1{
+.txtimg2 h1 {
     font-size: 26px;
     padding-bottom: 50px;
 }
 
-.sec-sectimg2{
-    width: 541px;
+.sec-sectimg2 {
+    /* width: 541px; */
     border: 1px solid;
     border: hidden;
     background-color: #ffffff;
@@ -463,45 +491,47 @@ p{
     border: 1px;
 }
 
-.outline2 img{
+.outline2 img {
     padding-left: 0px;
     position: absolute;
     top: 134px;
-    left: -28px; 
+    left: -28px;
     z-index: -1;
 }
 
-.form{
+.form {
     background-color: #081d54;
-    }
-.form .row{
+}
+
+.form .row {
     padding-top: 128px;
     padding-bottom: 150px;
-}    
+}
 
-.formltxt h1{
+.formltxt h1 {
     font-size: 30px;
     color: #3ce4c2;
     font-weight: 700;
     margin-bottom: 30px;
-} 
+}
 
-.formltxt p{
+.formltxt p {
     color: #ffffff;
     margin-bottom: 30px;
 }
-.forms{
+
+.forms {
     background-color: #ffffff;
     width: 542px;
     height: 378px;
 }
 
-.form-floating{
+.form-floating {
     margin-left: 30px;
     margin-right: 48px;
 }
 
-.form-floating input{
+.form-floating input {
     border: hidden;
     border-bottom: 2px solid;
     border-radius: 0px;
@@ -509,66 +539,800 @@ p{
     padding-top: 38px;
 }
 
-.forminp{
+.forminp {
     padding-top: 48px;
 
 }
 
-.banbtn2{
-    position: relative;
+.banbtn2 {
     margin-left: 30px;
     margin-top: 46px;
 
 }
 
 
-.banbtn2 button{
-    display: inline-block;
-    width: 376px;
-    height:66px;
+.banbtn2 button {
+    position: relative;
+    /* display: inline-block; */
+    width: 463px;
+    height: 66px;
     background-color: #3ce4c2;
     padding-left: 41px;
     border: hidden;
 }
 
 
-.arow3{
-    display: inline;
+.arow3 {
+    /* display: inline; */
     position: absolute;
     background-color: #ced2dd;
     width: 87px;
     height: 66px;
     top: 0;
-    
+    right: 0;
+
 }
 
-.arow3 img{
+.arow3 img {
     position: absolute;
-    top: 10px;
-    width: 49px;
-    right: 22px;
+    top: 21px;
+    width: 32px;
+    right: 26px;
 
 }
 
-.form{
+.form {
     position: relative;
     z-index: 1;
 }
 
-.outline3 img{
-    padding-left: 55px;
-    position: absolute; 
-    top: 167px;
+.outline3 img {
+    padding-left: 58px;
+    position: absolute;
+    top: 171px;
     z-index: -1;
 }
 
-.fotcon,.fterm{
+.fotcon,
+.fterm {
     font-size: 15px;
     font-weight: 400;
     color: #686868;
 }
 
-.fotcon p,.fterm{
+.fotcon p,
+.fterm {
     margin-bottom: 0px;
 }
+
+
+/*------media query-------  */
+
+@media only screen and (max-width:1024px) {
+
+
+    .t-section .outline img {
+        width: 41%;
+        right: 83px;
+    }
+
+    .s3-img .sgx {
+        padding-top: 56px;
+        padding-left: 50px;
+    }
+
+    .s3-img .toyko,
+    .phatra,
+    .hanwha,
+    .ich,
+    .ternary,
+    .rh {
+        padding-top: 23px;
+        padding-left: 10px;
+    }
+
+    .s3-img .heliconia {
+        padding-left: 10px;
+        padding-top: 55px;
+    }
+
+
+    .fiveimgs .col-md-2 {
+        width: 190px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    .direct4 {
+        padding-bottom: 71px;
+    }
+
+    .outline2 img {
+        width: 46%;
+        left: -24px;
+    }
+
+    .forms {
+        width: auto;
+    }
+
+    .banbtn2 button {
+        width: 397px;
+        height: 52px;
+        padding-left: 21px;
+    }
+
+    .arow3 {
+        width: 72px;
+        height: 52px;
+    }
+
+    .arow3 img {
+        top: 13px;
+        right: 21px;
+    }
+
+    .outline3 img {
+        width: 53%;
+        top: 198px;
+        right: 0px;
+    }
+
+
+}
+
+
+@media only screen and (max-width:992px) {
+    .bancont h1 {
+        font-size: 20px;
+        font-weight: 800;
+        padding-top: 10px;
+
+    }
+
+    .banpara {
+        margin-bottom: 10px;
+        padding-top: 0px;
+    }
+
+    .banpara p {
+        font-size: 13px;
+        padding-left: 20px;
+        margin-bottom: 5px;
+    }
+
+    .banbtn button {
+        height: 31px;
+        width: 400px;
+        margin-bottom: 0px;
+        padding-left: 22px;
+    }
+
+    #text {
+        font-size: 10px;
+    }
+
+    .arow {
+        width: 54px;
+        height: 31px;
+    }
+
+    .arow img {
+        top: 2px;
+        right: 12px;
+    }
+
+    .outline img {
+        width: 41%;
+        right: 81px;
+        top: 130px;
+    }
+
+    h1 {
+        font-size: 21px;
+    }
+
+    .txtimg h1 {
+        padding-bottom: 5px;
+
+    }
+
+    .s3-img .toyko,
+    .phatra,
+    .hanwha,
+    .ich,
+    .ternary,
+    .rh {
+        padding-top: 27px;
+        padding-left: 10px;
+    }
+
+    .s3-img .heliconia {
+        padding-left: 10px;
+        padding-top: 55px;
+    }
+
+    .s3-btn button {
+        width: 384px;
+        height: 32px;
+        padding-left: 20px;
+    }
+
+    .fiveimgs .col-md-2 {
+        text-align: center;
+        padding: 0px;
+        width: 190px;
+    }
+
+    .outline2 img {
+        width: 45%;
+        top: 143px;
+        left: -46px;
+    }
+
+    .txtimg2 h1 {
+        padding-bottom: 5px;
+
+    }
+
+    .formltxt h1 {
+        font-size: 23px;
+
+    }
+
+    .formltxt p {
+        font-size: 15px;
+
+    }
+
+    .forms {
+        width: 443px;
+    }
+
+    .banbtn2 button {
+        width: 363px;
+        height: 40px;
+        padding-left: 0px;
+
+    }
+
+    .arow3 {
+        width: 53px;
+        height: 40px;
+
+    }
+
+    .arow3 img {
+        top: 7px;
+        right: 12px;
+    }
+
+    .outline3 img {
+        width: 53%;
+        top: 236px;
+        right: 3px;
+    }
+
+    .direct4 {
+        padding-bottom: 87px;
+    }
+
+    p {
+        font-size: 17px;
+        margin-bottom: 0px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:912px) {
+
+    .s3-img .toyko,
+    .phatra,
+    .hanwha,
+    .ich,
+    .ternary,
+    .rh {
+        padding-top: 35px;
+        padding-left: 3px;
+    }
+
+    .s3-img .heliconia {
+        padding-left: 3px;
+        padding-top: 55px;
+    }
+
+    .fiveimgs .col-md-2 {
+        width: 144px;
+    }
+
+    .forms {
+        width: 402px;
+    }
+
+    .outline2 img {
+        width: 45%;
+        top: 131px;
+        left: -17px;
+    }
+
+}
+
+@media only screen and (max-width:820px) {
+    .outline img {
+        width: 46%;
+    }
+
+
+
+}
+
+/* media query for 768px */
+
+@media only screen and (max-width:768px) {
+
+    .container {
+        width: 90%;
+    }
+
+    .fiveimgs .col-md-2 {
+        width: 138px;
+    }
+
+    .forms {
+        width: auto;
+    }
+
+    .banbtn2 button {
+        width: 247px;
+        height: 66px;
+    }
+
+    .arow3 {
+        height: 38px;
+        width: 54px;
+        top: 29px;
+        left: 71px;
+    }
+
+    .outline3 img {
+        width: 45%;
+        top: 324px;
+        right: 24px;
+    }
+
+}
+
+
+
+@media only screen and (max-width:430px){
+    .banbtn button{
+        width: 380px;
+        height: 80px;
+    }
+
+    .arow{
+        width: 54px;
+        height: 80px;
+    }
+
+    .arow img{
+        top: 27px;
+    }
+
+    .s3-img .sgx {
+        padding-left: 120px;
+
+    }
+
+    .s3-img .toyko,
+    .phatra,
+    .hanwha,
+    .ich,
+    .ternary,
+    .rh {
+        padding-top: 28px;
+        padding-left: 90px;
+    }
+
+    .s3-img .heliconia {
+        padding-left: 90px;
+    }
+
+    .s3-btn button {
+        width: 300px;
+        height: 80px;
+        padding-left: 8px;
+    }
+
+    .frimgsec{
+        padding-bottom: 0px;
+    }
+
+    .four-sec img {
+        padding-left: 60px;
+        
+    }
+
+    .fiveimgs .col-md-2 {
+        width: 380px;
+        padding-top: 20px;
+    }
+
+
+    .slider-dev-img {
+        padding-left: 0px;
+
+    }
+
+    .t-section2 .txt {
+        padding-left: 0px;
+
+    }
+
+    .banbtn2 button {
+        width: 227px;
+        height: 66px;
+    }
+
+    .outline2 img {
+        width: 90%;
+        top: 131px;
+        left: -15px;
+    }
+
+    .arow3 {
+        height: 66px;
+        width: 54px;
+        top: 0px;
+        left: 174px;
+    }
+
+    .arow3 img{
+        top:23px;
+    }
+
+    .forms{
+        width: 346px;
+    }
+
+    .outline3 img {
+        width: 100%;
+        top: 592px;
+        right: 5px;
+    }
+}
+
+
+@media only screen and (max-width:414px){
+
+    .banbtn button{
+        width: 320px;
+        height: 80px;
+    }
+
+    .s3-img .toyko,
+    .phatra,
+    .hanwha,
+    .ich,
+    .ternary,
+    .rh {
+        padding-top: 28px;
+        padding-left: 75px;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width:412px) {
+    .banbtn button {
+        width: 256px;
+        height: 80px;
+    }
+
+    .arow {
+        height: 80px;
+        width: 50px;
+
+    }
+
+    .arow img {
+        top: 27px;
+    }
+
+    .s3-img .sgx {
+        padding-left: 100px;
+
+    }
+
+    .s3-img .toyko,
+    .phatra,
+    .hanwha,
+    .ich,
+    .ternary,
+    .rh {
+        padding-top: 28px;
+        padding-left: 75px;
+    }
+
+    .s3-img .heliconia {
+        padding-left: 75px;
+    }
+
+    .s3-btn button {
+        width: 360px;
+        height: 80px;
+        padding-left: 8px;
+    }
+
+    .frimgsec {
+        padding-bottom: 0px;
+    }
+
+    .outline2 img {
+        width: 90%;
+        top: 131px;
+        left: -17px;
+    }
+
+    .four-sec img {
+        padding-left: 50px;
+    }
+
+    .fiveimgs .col-md-2 {
+        width: 380px;
+        padding-top: 20px;
+    }
+
+    .slider-dev-img {
+        padding-left: 0px;
+
+    }
+
+    .t-section2 .txt {
+        padding-left: 0px;
+
+    }
+
+    .outline3 img {
+        width: 100%;
+        top: 592px;
+        right: 0px;
+    }
+
+    .banbtn2 button {
+        width: 300px;
+        height: 66px;
+    }
+    .arow3{
+        height: 67px;
+        width: 46px;
+        left: 255px;
+        top: 0px;
+        /* right: 0px; */
+    }
+
+    .arow3 img{
+        top: 19px;
+        right: 10px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width:360px){
+    .s3-img .sgx {
+        padding-left: 80px;
+
+    }
+
+    .s3-img .toyko,
+    .phatra,
+    .hanwha,
+    .ich,
+    .ternary,
+    .rh {
+        padding-top: 28px;
+        padding-left: 50px;
+    }
+
+    .s3-img .heliconia {
+        padding-left: 50px;
+    }
+
+    .s3-btn button {
+        width: 300px;
+        height: 80px;
+        padding-left: 8px;
+    }
+
+    .four-sec img {
+        padding-left: 25px;
+    }
+
+    .outline2 img {
+        width: 90%;
+        top: 124px;
+        left: -12px;
+    }
+
+    .outline3 img {
+        width: 100%;
+        top: 648px;
+        right: 5px;
+    }
+
+    .banbtn2 button {
+        width: 227px;
+        height: 66px;
+    }
+
+    .arow3{
+        height: 67px;
+        width: 46px;
+        left: 181px;
+        top: 0px;
+    }
+}
+
+
+
+@media only screen and (max-width:390px){
+
+    .banbtn button{
+        width: 320px;
+        height: 80px;
+    }
+
+    .s3-img .sgx {
+        padding-left: 110px;
+
+    }
+
+    .s3-img .toyko,
+    .phatra,
+    .hanwha,
+    .ich,
+    .ternary,
+    .rh {
+        padding-top: 28px;
+        padding-left: 65px;
+    }
+
+    .s3-img .heliconia {
+        padding-left: 65px;
+    }
+
+    .s3-btn button {
+        width: 243px;
+        height: 80px;
+        padding-left: 8px;
+    }
+
+    .four-sec img {
+        padding-left: 30px;
+        
+    }
+
+    .fiveimgs .col-md-2 {
+        width: 380px;
+        padding-top: 20px;
+    }
+
+    .forms{
+        width: 323px;
+
+    }
+
+    .outline3 img{
+        top: 630px;
+
+    }
+
+    
+}
+
+
+
+@media only screen and (max-width:375px){
+
+
+    .s3-img .toyko,
+    .phatra,
+    .hanwha,
+    .ich,
+    .ternary,
+    .rh {
+        padding-top: 28px;
+        padding-left: 65px;
+    }
+
+    .forms{
+        width: 310px;
+    }
+
+    .outline3 img{
+        top: 640px;
+
+    }
+
+
+}
+
+@media only screen and (max-width:280px){
+
+    .banbtn button{
+        width: 170px;
+        height: 100px;
+    }
+
+    .brands{
+        flex-direction: column;
+    }
+
+    .s3-img .sgx {
+        padding-left: 110px;
+
+    }
+
+    .s3-img .toyko,
+    .phatra,
+    .hanwha,
+    .ich,
+    .ternary,
+    .rh {
+        padding-top: 28px;
+        padding-left: 65px;
+    }
+
+    .s3-img .heliconia {
+        padding-left: 65px;
+    }
+
+    .s3-btn button {
+        width: 243px;
+        height: 80px;
+        padding-left: 8px;
+    }
+
+    .forms{
+        width: 230px;
+    }
+
+    .outline3 img{
+        top: 640px;
+    }
+
+    .arow3{
+        height: 67px;
+        width: 46px;
+        left: 155px;
+        top: 0px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
 
